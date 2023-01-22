@@ -1,0 +1,147 @@
+.services_offered {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.ser_off_title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #FF2C3A;
+}
+
+.ser_off_socials {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.ser_off_right {
+    color: #959595;
+}
+
+.services_offered_whole {
+    display: flex;
+    width: 84vw;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.ser_off_line_socials {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    rotate: 90deg;
+    left: -5rem;
+    top: 117%;
+}
+
+.services_offered_line {
+    /* position: absolute; */
+    width: 13rem;
+    height: 1px;
+    background-color: #EDEDED;
+    /* rotate: 90deg; */
+}
+
+.ser_off_ic {
+    rotate: -90deg;
+}
+
+.ellipse2 {
+    position: absolute;
+    right: 0;
+    top: 92%;
+}
+
+.ser_off_body {
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ser_off_carousel {
+    /* overflow-x: hidden; */
+    max-width: 94%;
+}
+
+.image-wrapper {
+    height: 20rem;
+    width: 30rem;
+    position: relative;
+    transition: .3s;
+}
+
+
+.ser-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 2%;
+    transition: 1s;
+}
+
+.serimg-active {
+    transform: scale(1.2);
+    filter: none;
+}
+
+/* IMAGE */
+
+/*
+.ser_off_carousel {
+    display: flex;
+    /* justify-content: center;
+    position: relative;
+    width: 80%;
+    height: 20rem;
+}
+/* 
+.ser-slide {
+    width: 20rem;
+    height: 15rem;
+    margin: 2rem;
+    position: absolute;
+    transition: 1s;
+} */
+
+/* .ser-active {
+    transform: scale(1.3);
+    margin: 2rem 5rem;
+} */
+
+/* .ser-slide>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.ser_off_textbox {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.conf_halls {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF2C3A;
+    margin-bottom: 0.7rem;
+}
+
+.conf_text {
+    color: #5C5C5C;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+}
