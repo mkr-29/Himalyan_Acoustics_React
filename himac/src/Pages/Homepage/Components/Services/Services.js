@@ -13,11 +13,12 @@ import Ap10 from "./Assets/ap10.jpg";
 import Ap11 from "./Assets/ap11.jpg";
 
 export default function Services() {
+
   const serSlides = document.querySelectorAll(".ser-img");
   const serMaxSlide = serSlides.length;
 
-  serTitle = document.getElementById("serTitle");
-  serInfo = document.getElementById("serText");
+  const serTitle = document.getElementById("serTitle");
+  const serInfo = document.getElementById("serText");
 
   var services = [
     "Auditoriums",
@@ -126,7 +127,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="Assets/Images/ap1.jpg"
+                    src={Ap1}
                     alt="auditorium"
                     srcset=""
                   />
@@ -134,7 +135,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="Assets/Images/app2.jpg"
+                    src={Ap2}
                     alt="cinema_hall"
                     srcset=""
                   />
@@ -142,7 +143,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="Assets/Images/app3.jpg"
+                    src={Ap3}
                     alt="sound_studio"
                     srcset=""
                   />
@@ -150,7 +151,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="./Assets/Images/ap4.jpg"
+                    src={Ap4}
                     alt="auditorium"
                     srcset=""
                   />
@@ -158,7 +159,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="./Assets/Images/app5.jpg"
+                    src={Ap5}
                     alt="auditorium"
                     srcset=""
                   />
@@ -166,7 +167,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="./Assets/Images/ap6.jpg"
+                    src={Ap6}
                     alt="auditorium"
                     srcset=""
                   />
@@ -174,7 +175,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="./Assets/Images/app7.jpg"
+                    src={Ap7}
                     alt="auditorium"
                     srcset=""
                   />
@@ -182,7 +183,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="./Assets/Images/app8.jpg"
+                    src={Ap8}
                     alt="auditorium"
                     srcset=""
                   />
@@ -190,7 +191,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="./Assets/Images/ap9.jpg"
+                    src={Ap9}
                     alt="auditorium"
                     srcset=""
                   />
@@ -198,7 +199,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="./Assets/Images/ap10.jpg"
+                    src={Ap10}
                     alt="auditorium"
                     srcset=""
                   />
@@ -206,7 +207,7 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src="./Assets/Images/app11.jpg"
+                    src={Ap11}
                     alt="auditorium"
                     srcset=""
                   />
