@@ -6,8 +6,10 @@ import Facebook from "./Assets/fb.svg";
 import Linkedin from "./Assets/ln.svg";
 import Instagram from "./Assets/in.svg";
 import Twitter from "./Assets/tw.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import {Link as LNK} from 'react-scroll';
+import {animateScroll as scroll} from 'react-scroll';
+import Logo from "./Assets/himalyan-logo.png"
 
 export default function Header() {
   return (
@@ -73,18 +75,17 @@ export default function Header() {
 
         {/* Lower portion of header line starts */}
         <div className="head_main" id="myTopnav">
+          
           {/* Logo */}
-
-          <a href="/" className="pg_title">
-            {/* <span className="pg_title_left">Himalyan</span> Acoustics */}
-            <img src="./Assets/Images/himalyan-logo altered.png" alt="" />
-          </a>
+          <NavLink to='/' className="header-logojyc">
+            <img onClick={'/'} className="header-logo" src={Logo} />
+          </NavLink>
 
           {/* Navigation links */}
           <div className="navlinks">
-            <a onclick="scroll_to_top()" className="home_nav navlink">
+            <Link onClick={() => scroll.scrollToTop()} to="/" className="home_nav navlink">
               HOME
-            </a>
+            </Link>
             <LNK
               to="prod_range"
               spy={true}

@@ -120,8 +120,10 @@
     margin-top: 0.5rem;
     display: flex;
     width: 40%;
+    height: 2rem;
     justify-content: space-between;
     overflow: hidden;
+    align-items: center;
 }
 
 .navlinks .icon {
