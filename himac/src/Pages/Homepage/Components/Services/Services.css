@@ -8,7 +8,7 @@
 
 .ser_off_title {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 47px;
     color: #FF2C3A;
 }
 
@@ -23,7 +23,7 @@
 
 .services_offered_whole {
     display: flex;
-    width: 84vw;
+    width: 88vw;
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
@@ -35,8 +35,8 @@
     align-items: center;
     position: absolute;
     rotate: 90deg;
-    left: -5rem;
-    top: 117%;
+    left: -3.7rem;
+    top: 118.4%;
 }
 
 .services_offered_line {

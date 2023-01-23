@@ -1,5 +1,9 @@
 import React from "react";
 import "./Services.css";
+import Facebook from "../Header/Assets/fb.svg";
+import Linkedin from "../Header/Assets/ln.svg";
+import Twitter from "../Header/Assets/tw.svg";
+import Instagram from "../Header/Assets/in.svg";
 
 export default function Social_Orn() {
   return (
@@ -9,22 +13,18 @@ export default function Social_Orn() {
 
         <div className="ser_off_socials">
           <a href="">
-            <img
-              className="ser_off_ic"
-              src="Icons/icon _facebook_.svg"
-              alt=""
-            />
+            <img className="ser_off_ic" src={Facebook} alt="" />
           </a>
           <a href="">
-            <img className="ser_off_ic" src="Icons/icon _linkedin.svg" alt="" />
+            <img className="ser_off_ic" src={Linkedin} alt="" />
           </a>
           <a href="">
-            <img className="ser_off_ic" src="Icons/icon _twitter.svg" alt="" />
+            <img className="ser_off_ic" src={Twitter} alt="" />
           </a>
           <a href="">
             <img
               className="ser_off_ic"
-              src="Icons/icon _instagram.svg"
+              src={Instagram}
               alt=""
             />
           </a>

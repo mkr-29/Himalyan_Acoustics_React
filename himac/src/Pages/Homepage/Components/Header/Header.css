@@ -4,7 +4,6 @@
     flex-direction: column;
     width: 100%;
 }
-
 .head_up {
     margin-top: 2.5rem;
     width: 88vw;
@@ -12,27 +11,24 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
 .head_up_left {
     font-size: 0.75rem;
     display: flex;
-    width: 18rem;
+    width: 22rem;
     font-weight: 400;
     justify-content: space-between;
 }
-
 .mail_nav {
     text-decoration: none;
     color: black;
     display: flex;
     align-items: center;
 }
-
-.mail_nav_txt {
-    /* font-size: 1rem; */
+.mail_nav_txt, .phone_nav_txt {
+    font-size: 14px;
     margin-left: 0.7rem;
+    font-weight: 500;
 }
-
 .phone_nav {
     text-decoration: none;
     color: black;
@@ -40,28 +36,12 @@
     align-items: center;
 }
 
-.phone_nav_txt {
-    /* font-size: 1rem; */
-    margin-left: 0.7rem;
-}
-
 /* .phone_nav_ico {
     /* font-size: 1.15rem; */
 
-.fb_ico {
-    width: 0.9rem;
-}
-
-.ln_ico {
-    width: 0.9rem;
-}
-
-.tw_ico {
-    width: 0.9rem;
-}
-
-.in_ico {
-    width: 0.9rem;
+.fb_ico, .ln_ico, .tw_ico,
+ .in_ico{
+    width: 1.1rem;
 }
 
 .nav_up_line {
@@ -120,7 +100,6 @@
     margin-top: 0.5rem;
     display: flex;
     width: 40%;
-    height: 2rem;
     justify-content: space-between;
     overflow: hidden;
     align-items: center;
@@ -134,7 +113,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     text-decoration: none;
     color: black;
     cursor: pointer;

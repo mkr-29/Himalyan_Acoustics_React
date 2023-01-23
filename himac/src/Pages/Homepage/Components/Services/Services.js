@@ -11,6 +11,7 @@ import Ap8 from "./Assets/ap8.jpg";
 import Ap9 from "./Assets/ap9.jpg";
 import Ap10 from "./Assets/ap10.jpg";
 import Ap11 from "./Assets/ap11.jpg";
+import Social_Orn from "./Social_Orn";
 
 export default function Services() {
 
@@ -81,10 +82,10 @@ export default function Services() {
   return (
     <div>
       {/* Services Offered */}
-
       <div className="services_offered">
         {/* ornament */}
         <img src="Assets/Ornaments/ellipse2svg.svg" alt="" className="ellipse2" />
+        <Social_Orn/>
 
         <div className="services_offered_whole">
           {/* Title */}
