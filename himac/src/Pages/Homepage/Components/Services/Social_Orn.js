@@ -1,9 +1,9 @@
 import React from "react";
 import "./Services.css";
-import Facebook from "../Header/Assets/fb.svg";
-import Linkedin from "../Header/Assets/ln.svg";
-import Twitter from "../Header/Assets/tw.svg";
-import Instagram from "../Header/Assets/in.svg";
+import Facebook from "./Assets/fbo.svg";
+import Linkedin from "./Assets/lno.svg";
+import Twitter from "./Assets/two.svg";
+import Instagram from "./Assets/ino.svg";
 
 export default function Social_Orn() {
   return (
