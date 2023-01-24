@@ -23,7 +23,7 @@
 
 .services_offered_whole {
     display: flex;
-    width: 88vw;
+    width: 80vw;
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
