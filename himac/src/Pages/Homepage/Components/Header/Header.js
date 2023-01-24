@@ -77,7 +77,7 @@ export default function Header() {
         <div className="head_main" id="myTopnav">
           
           {/* Logo */}
-          <NavLink to='/' className="header-logojyc">
+          <NavLink to='/' className="header-logo">
             <img onClick={'/'} className="header-logo" src={Logo} />
           </NavLink>
 

@@ -55,6 +55,7 @@
 .ellipse2 {
     position: absolute;
     right: 0;
+    z-index: -1;
     top: 37rem;
     width: 30rem;
 }
@@ -127,4 +128,32 @@
     font-weight: 400;
     font-size: 13px;
     text-align: center;
+}
+
+@media screen and (max-width: 400px){
+    .image-wrapper {
+        height: 11rem;
+        width: 17rem;
+    }
+    .ellipse1 {
+        top: 93.3rem;
+        width: 10rem;
+    }
+    .ellipse2 {
+        top: 112rem;
+        width: 17rem;
+    }
+    .ser_off_line_socials {
+        display: none;
+    }
+    .ser_off_title {
+        font-size: 36px;
+        text-align: center;
+    }
+    .ser_off_body {
+        margin-top: 2rem;
+    }
+    .services_offered_whole {
+        width: 90vw;
+    }
 }

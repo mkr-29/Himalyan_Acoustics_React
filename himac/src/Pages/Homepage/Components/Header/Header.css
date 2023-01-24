@@ -145,4 +145,10 @@
     .navlinks{
         width: 100%;
     }
+    .head_main {
+        flex-direction: column;
+    }
+    .header-logo{
+        text-align: center;
+    }
 }

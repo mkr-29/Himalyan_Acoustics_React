@@ -2,7 +2,7 @@
 .landing {
     display: flex;
     justify-content: center;
-    height: 58vh;
+    height: 100%;
     margin-top: 2.5rem;
 }
 
@@ -360,4 +360,49 @@
 .lsi_head{
     font-weight: 400;
     color: #5C5C5C;
+}
+
+@media screen and (max-width: 400px) {
+    .landing_whole {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .call_to_action{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .up_stats {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .company_brief {
+        width: 100%;
+    }
+    .stat1 {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+    .stat3{
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+    }
+    .stat3>.stat_brief{
+        width: 11rem;
+    }
+    .slider {
+        flex-direction: column;
+    }
+    .landing-slider {
+        width: 19.4rem;
+        height: 12rem;
+    }
+    .landing-slider-text {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    
 }

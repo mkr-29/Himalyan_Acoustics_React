@@ -74,3 +74,29 @@
     right: 0;
     z-index: -1;
 }
+
+@media screen and (max-width: 400px){
+    .why_us_ic_i {
+        width: 3rem;
+    }
+    .why_us_ico_desc {
+        flex-wrap: wrap;
+    }
+    .ellipse4 {
+        top: 155.2rem;
+        width: 10rem;
+    }
+    .ellipse3 {
+        top: 180rem;
+    }
+    .ellipse5 {
+        top: 160rem;
+        width: 10rem;
+    }
+    .why_us_content{
+        height: 100%;
+    }
+    .why_us_title{
+        font-size: 44px;
+    }
+}
