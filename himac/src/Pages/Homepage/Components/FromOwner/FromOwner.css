@@ -1,0 +1,70 @@
+.from-owner {
+    display: flex;
+    margin-top: 12rem;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 9rem;
+}
+
+.from_owner_body {
+    display: flex;
+    width: 83vw;
+    justify-content: center;
+    gap: 1.9rem;
+}
+
+/* .from_owner_orn {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 500px;
+    left: 3.6%;
+    top: 260.6rem;
+    color: #FF2C3A;
+} */
+
+.owner-img {
+    width: 38%;
+    border-radius: 4%;
+}
+
+.owner-pic {
+    width: 100%;
+    border-radius: 3%;
+}
+
+.owner-quote {
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.owner_fro {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FF2C3A;
+    margin: 0;
+}
+
+.owner_frqu {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #5C5C5C;
+    width: 100%;
+}
+
+.owner-signature {
+    height: 75px;
+    width: max-content;
+    object-fit: contain;
+
+    /* margin: 2rem 0; */
+    background-color: gray;
+}
