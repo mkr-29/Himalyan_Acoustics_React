@@ -81,22 +81,43 @@
     }
     .why_us_ico_desc {
         flex-wrap: wrap;
+        padding: 2rem 0rem 0rem 0;
+        gap: 1rem;
     }
     .ellipse4 {
-        top: 155.2rem;
+        top: 147.2rem;
         width: 10rem;
     }
     .ellipse3 {
-        top: 180rem;
+        top: 170rem;
     }
     .ellipse5 {
-        top: 160rem;
-        width: 10rem;
+        top: 150rem;
+        width: 12rem;
     }
     .why_us_content{
         height: 100%;
     }
     .why_us_title{
-        font-size: 44px;
+        font-size: 40px;
     }
+    .why_us_body {
+        width: 90vw;
+        height: 70%;
+    }
+    .why_us{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        height: 100%;
+        padding: 0rem 0rem 2rem 0;
+    }
+    .why_us_content {
+        align-items: center;
+    }
+    .why_us_ic_text{
+        margin-top: 0.5rem;
+        font-size: 16px;
+    }
+
+
+
 }

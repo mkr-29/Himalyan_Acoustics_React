@@ -64,7 +64,35 @@
     height: 75px;
     width: max-content;
     object-fit: contain;
-
+    
     /* margin: 2rem 0; */
     background-color: gray;
+}
+@media screen and (max-width: 400px){
+    .from_owner_orn{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        color: #FF2C3A;
+        font-size: 15rem;
+        position: absolute;
+        left: 1rem;
+        top: 253rem;
+        z-index: 4;
+    }
+    .from-owner{
+        margin-top: 4rem;
+    }
+    .from_owner_body{
+        flex-direction: column;
+        width: 90vw;
+        align-items: center;
+    }
+    .owner-img {
+        width: 80%;
+    }
+    .owner-quote {
+        width: 90%;
+        text-align: justify;
+    }
 }

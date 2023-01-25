@@ -370,6 +370,8 @@
     .call_to_action{
         flex-direction: column;
         align-items: flex-start;
+        width: 100%;
+        gap: 0.5rem;
     }
     .up_stats {
         flex-wrap: wrap;
@@ -404,5 +406,20 @@
         margin-top: 0.5rem;
         margin-left: 0.5rem;
     }
-    
+    #landing-image-count{
+        font-size: 4rem;
+    }
+    #landing-title {
+        font-size: 26px;
+    }
+    #landing-info {
+        font-size: 18px;
+    }
+    .landing-slider-info>h3 {
+        margin-left: -1.5rem;
+    }
+    .landing-slider-info {
+        margin-left: 4.3rem;
+        margin-top: 0.7rem;
+    }
 }

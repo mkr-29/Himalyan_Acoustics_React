@@ -57,3 +57,8 @@ footer {
     font-size: 15px;
     color: #959595;
 }
+@media screen and (max-width:400px){
+    /* .ellipse_dec1 {
+        left: 0;
+    } */
+}

@@ -138,10 +138,10 @@
 
 @media screen and (max-width: 400px){
     .prod_range-slider {
-        width: 22.7rem;
-        height: 15rem;
-        top: 122.9rem;
-        left: 0.9rem;
+        width: 18.7rem;
+        height: 12rem;
+        top: 120.9rem;
+        left: 1.9rem;
     }
     .product-slide{
         width: 100%;
@@ -154,7 +154,7 @@
     }
     .ser_off_socials_pr {
         rotate: 0deg;
-        top: 115.7rem;
+        top: 112.5rem;
     }
     .ser_off_ic {
         rotate: 0deg;
@@ -164,7 +164,7 @@
         width: 90%;
     }
     .prod_range_title {
-        font-size: 44px;
+        font-size: 38px;
         justify-content: center;
     }
     .prod_range_box {
@@ -173,4 +173,20 @@
     .prod_range_box_body{
         margin: 0;
     }
+    .prod_range_box_outer{
+        margin-left: 0;
+    }
+    .prod_range_carousel{
+        height: 26rem;
+    }
+    .prod_title{
+        font-size: 26px;
+    }
+    .prod_description{
+        font-size: 12px;
+    }
+    .prod_range_box_body_car_nav{
+        margin-top: 1rem;
+    }
+
 }

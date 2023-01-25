@@ -160,3 +160,31 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 400px){
+    .ellipse_dec1 {
+        top: 222rem;
+        left: 9rem;
+    }
+    .c_rev_body{
+        padding: 1rem 0 1rem 0;
+        height: 100%;
+        flex-direction: column;
+        width: 100%;
+    }
+    .c_rev_title{
+        font-size: 38px;
+    }
+    .c_rev_title_middle{
+        font-size: 40px;
+    }
+    .carousel_container{
+        width: 90%;
+    }
+    .c_reviews{
+        height: 100%;
+    }
+    .c_rev_carousel{
+        margin-top: 1rem;
+    }
+}
