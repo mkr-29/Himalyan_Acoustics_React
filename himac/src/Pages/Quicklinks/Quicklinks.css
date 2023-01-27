@@ -14,7 +14,7 @@
 .q_links_msec{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     margin-top: 2rem;
     align-items: center;
 }
@@ -45,6 +45,16 @@
     font-size: 18px;
     color: #FF2C3A;
     text-decoration: none;
+}
+.q_links_ul{
+    border: 1px solid rgba(92, 92, 92, 0.14);
+    width: 102px;
+}
+.qsec4 .q_links{
+    gap: 2rem;
+}
+.qsec4 .q_links .q_link{
+    margin-right: 3rem;
 }
 
 @media screen and (max-width: 400px){

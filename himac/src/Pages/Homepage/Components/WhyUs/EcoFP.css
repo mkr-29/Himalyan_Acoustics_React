@@ -25,7 +25,7 @@
     color: #FF2C3A;
     width: 30rem;
     position: absolute;
-    top: 146.6rem;
+    top: 193.6rem;
     right: 6.4rem;
 }
 
@@ -61,7 +61,7 @@
 
 .meshed_rectangle2 {
     position: absolute;
-    top: 337%;
+    top: 206rem;
     left: 0;
 }
 
@@ -69,7 +69,7 @@
     z-index: -1;
     position: absolute;
     right: 4rem;
-    top: 319%;
+    top: 198rem;
 }
 @media screen and (max-width: 400px){
     .eco_frip_title{

@@ -41,7 +41,7 @@
     width: 35.9rem;
     height: 23rem;
     position: absolute;
-    top: 86.6rem;
+    top: 133.4rem;
     left: 16.9rem;
 }
 
@@ -122,7 +122,7 @@
 .meshed_rectangle1 {
     left: 4rem;
     position: absolute;
-    top: 80rem;
+    top: 126rem;
     width: 14rem;
     z-index: -1;
 }
@@ -132,7 +132,7 @@
     position: absolute;
     rotate: 90deg;
     left: 3%;
-    top: 113.7rem;
+    top: 160.7rem;
     gap: 0.5rem;
 }
 
