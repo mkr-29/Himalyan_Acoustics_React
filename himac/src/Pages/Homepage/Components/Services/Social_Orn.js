@@ -12,16 +12,16 @@ export default function Social_Orn() {
         <div className="services_offered_line"></div>
 
         <div className="ser_off_socials">
-          <a href="">
+          <a href="http://">
             <img className="ser_off_ic" src={Facebook} alt="" />
           </a>
-          <a href="">
+          <a href="http://">
             <img className="ser_off_ic" src={Linkedin} alt="" />
           </a>
-          <a href="">
+          <a href="http://">
             <img className="ser_off_ic" src={Twitter} alt="" />
           </a>
-          <a href="">
+          <a href="http://">
             <img
               className="ser_off_ic"
               src={Instagram}

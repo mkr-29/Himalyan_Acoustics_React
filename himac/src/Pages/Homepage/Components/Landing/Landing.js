@@ -124,7 +124,7 @@ export default function Landing() {
               <div>
                 <a className="chat_ctc" href="https://wa.me/+919779512233">
                   <span className="whatsapp">Let's have a Chat!!</span>
-                  <img className="wh_ico" src={Whatsapp} />
+                  <img className="wh_ico" src={Whatsapp} alt='' />
                 </a>
               </div>
             </div>

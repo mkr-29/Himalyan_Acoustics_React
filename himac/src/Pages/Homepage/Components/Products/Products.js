@@ -15,64 +15,64 @@ import Linkedin from "../Services/Assets/lno.svg";
 import Twitter from "../Services/Assets/two.svg";
 
 export default function Products() {
-//   const productSlides = document.querySelectorAll(".product-slide");
-//   const productBtnPrev = document.querySelector(".product-btn-prev");
-//   const productBtnNext = document.querySelector(".product-btn-next");
+  //   const productSlides = document.querySelectorAll(".product-slide");
+  //   const productBtnPrev = document.querySelector(".product-btn-prev");
+  //   const productBtnNext = document.querySelector(".product-btn-next");
 
-//   const prodMaxSlide = productSlides.length;
+  //   const prodMaxSlide = productSlides.length;
 
-//   let productTitle = document.getElementById("product-title");
-//   let productInfo = document.getElementById("product-info");
+  //   let productTitle = document.getElementById("product-title");
+  //   let productInfo = document.getElementById("product-info");
 
-//   var products = ["CEILING", "WALLS", "FLOOR", "DOOR", "WINDOW", "PARTITIONS"];
+  //   var products = ["CEILING", "WALLS", "FLOOR", "DOOR", "WINDOW", "PARTITIONS"];
 
-//   var productDesc = [
-//     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation",
-//     "Lorem ipum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation",
-//     "Lorem ipsiuum dol sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation",
-//   ];
+  //   var productDesc = [
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation",
+  //     "Lorem ipum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation",
+  //     "Lorem ipsiuum dol sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation",
+  //   ];
 
-//   let productSlideCounter = 0;
+  //   let productSlideCounter = 0;
 
-//   productSlides.forEach((prodSlide, prodIndex) => {
-//     prodSlide.style.left = `${prodIndex * 110}%`;
-//   });
+  //   productSlides.forEach((prodSlide, prodIndex) => {
+  //     prodSlide.style.left = `${prodIndex * 110}%`;
+  //   });
 
-//   const updateProductInfo = function () {
-//     productTitle.innerHTML = products[productSlideCounter];
-//     productInfo.innerHTML = productDesc[productSlideCounter];
-//   };
+  //   const updateProductInfo = function () {
+  //     productTitle.innerHTML = products[productSlideCounter];
+  //     productInfo.innerHTML = productDesc[productSlideCounter];
+  //   };
 
-//   const prodSlideImage = function () {
-//     productSlides.forEach((prodSlide) => {
-//       prodSlide.style.transform = `translateX(-${productSlideCounter * 100}%)`;
-//     });
-//   };
+  //   const prodSlideImage = function () {
+  //     productSlides.forEach((prodSlide) => {
+  //       prodSlide.style.transform = `translateX(-${productSlideCounter * 100}%)`;
+  //     });
+  //   };
 
-//   const goProdNext = function () {
-//     if (productSlideCounter != prodMaxSlide - 1) {
-//       productSlideCounter++;
-//     } else {
-//       productSlideCounter = 0;
-//     }
-//     prodSlideImage();
-//     updateProductInfo();
-//   };
-//   productBtnNext.addEventListener("click", goProdNext);
+  //   const goProdNext = function () {
+  //     if (productSlideCounter != prodMaxSlide - 1) {
+  //       productSlideCounter++;
+  //     } else {
+  //       productSlideCounter = 0;
+  //     }
+  //     prodSlideImage();
+  //     updateProductInfo();
+  //   };
+  //   productBtnNext.addEventListener("click", goProdNext);
 
-//   const goProdPrev = function () {
-//     if (productSlideCounter != 0) {
-//       productSlideCounter--;
-//     } else {
-//       productSlideCounter = prodMaxSlide - 1;
-//     }
-//     prodSlideImage();
-//     updateProductInfo();
-//   };
-//   productBtnPrev.addEventListener("click", goProdPrev);
+  //   const goProdPrev = function () {
+  //     if (productSlideCounter != 0) {
+  //       productSlideCounter--;
+  //     } else {
+  //       productSlideCounter = prodMaxSlide - 1;
+  //     }
+  //     prodSlideImage();
+  //     updateProductInfo();
+  //   };
+  //   productBtnPrev.addEventListener("click", goProdPrev);
 
-//   //Slides will slide automatically
-//   let autoProdSlide = setInterval(goProdNext, 5000);
+  //   //Slides will slide automatically
+  //   let autoProdSlide = setInterval(goProdNext, 5000);
 
   return (
     <div>
@@ -83,16 +83,16 @@ export default function Products() {
 
         {/* social ornament */}
         <div class="ser_off_socials_pr">
-          <a href="">
+          <a href="http://">
             <img class="ser_off_ic" src={Facebook} alt="" />
           </a>
-          <a href="">
+          <a href="http://">
             <img class="ser_off_ic" src={Linkedin} alt="" />
           </a>
-          <a href="">
+          <a href="http://">
             <img class="ser_off_ic" src={Twitter} alt="" />
           </a>
-          <a href="">
+          <a href="http://">
             <img class="ser_off_ic" src={Instagram} alt="" />
           </a>
         </div>

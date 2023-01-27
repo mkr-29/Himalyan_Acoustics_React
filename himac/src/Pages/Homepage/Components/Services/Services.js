@@ -11,14 +11,14 @@ import Ap8 from "./Assets/ap8.jpg";
 import Ap9 from "./Assets/ap9.jpg";
 import Ap10 from "./Assets/ap10.jpg";
 import Ap11 from "./Assets/ap11.jpg";
-import Social_Orn from "./Social_Orn";
+import SocialOrn from "./Social_Orn";
 import Orn1 from "./Assets/el1.svg";
 import Orn2 from "./Assets/el2.svg";
 
 export default function Services() {
 
   const serSlides = document.querySelectorAll(".ser-img");
-  const serMaxSlide = serSlides.length;
+  // const serMaxSlide = serSlides.length;
 
   let serTitle = document.getElementById("serTitle");
   let serInfo = document.getElementById("serText");
@@ -68,18 +68,18 @@ export default function Services() {
     });
   };
 
-  const goSerNext = function () {
-    if (serSlideCounter != serMaxSlide - 1) {
-      serSlideCounter++;
-    } else {
-      serSlideCounter = 0;
-    }
-    serSlideImage();
-    updateServicesInfo();
-  };
+  // const goSerNext = function () {
+  //   if (serSlideCounter !== serMaxSlide - 1) {
+  //     serSlideCounter++;
+  //   } else {
+  //     serSlideCounter = 0;
+  //   }
+  //   serSlideImage();
+  //   updateServicesInfo();
+  // };
 
   //Slides will slide automatically
-  let autoSerSlide = setInterval(goSerNext, 4000);
+  // let autoSerSlide = setInterval(goSerNext, 4000);
 
   return (
     <div>
@@ -88,7 +88,7 @@ export default function Services() {
         {/* ornament */}
         <img src={Orn1} alt="" className="ellipse1" />
         <img src={Orn2} alt="" className="ellipse2" />
-        <Social_Orn/>
+        <SocialOrn />
 
         <div className="services_offered_whole">
           {/* Title */}

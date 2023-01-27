@@ -7,31 +7,31 @@ import Linkedin from "./Assets/ln.svg";
 import Instagram from "./Assets/in.svg";
 import Twitter from "./Assets/tw.svg";
 import { Link, NavLink } from "react-router-dom";
-import {Link as LNK} from 'react-scroll';
-import {animateScroll as scroll} from 'react-scroll';
+import { Link as LNK } from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 import Logo from "./Assets/himalyan-logo.png"
-import Dropdown from "./Dropdown";
+// import Dropdown from "./Dropdown";
 
 export default function Header() {
   return (
     <div>
       <div className="header">
-        
+
         {/* Upper portion of header line starts */}
         <div className="head_up">
-          
+
           {/* Left portion of upper portion of header line starts */}
           <div className="head_up_left">
-            
+
             {/* Mail */}
             <a href="mailto: sales@kpaiindia.com" className="mail_nav">
-              <img src={Mail} className="mail__nav_ico" />
+              <img src={Mail} className="mail__nav_ico" alt='' />
               <span className="mail_nav_txt">sales@kpaiindia.com</span>
             </a>
 
             {/* Phone Number */}
             <a href="tel: +919779512233" className="phone_nav">
-              <img src={Call} className="phone_nav_ico"></img>
+              <img src={Call} className="phone_nav_ico" alt='' />
               <span className="phone_nav_txt">+91 9779 512 233</span>
             </a>
 
@@ -40,7 +40,7 @@ export default function Header() {
 
           {/* Right portion of upper portion of header line starts */}
           <div className="head_up_right">
-            
+
             {/* Careers and Associates */}
             <div className="car_aso">
               <Link href="#" className="careers">
@@ -53,16 +53,16 @@ export default function Header() {
 
             {/* Socials */}
             <Link href="facebook.com" className="facebook">
-              <img className="fb_ico" src={Facebook} />
+              <img className="fb_ico" src={Facebook} alt='' />
             </Link>
             <Link href="facebook.com" className="linkedin">
-              <img className="ln_ico" src={Linkedin} />
+              <img className="ln_ico" src={Linkedin} alt='' />
             </Link>
             <Link href="facebook.com" className="twitter">
-              <img className="tw_ico" src={Twitter} />
+              <img className="tw_ico" src={Twitter} alt='' />
             </Link>
             <Link href="facebook.com" className="instagram">
-              <img className="in_ico" src={Instagram} />
+              <img className="in_ico" src={Instagram} alt='' />
             </Link>
           </div>
 
@@ -76,10 +76,10 @@ export default function Header() {
 
         {/* Lower portion of header line starts */}
         <div className="head_main" id="myTopnav">
-          
+
           {/* Logo */}
           <NavLink to='/' className="header-logo">
-            <img onClick={'/'} className="header-logo" src={Logo} />
+            <img onClick={'/'} className="header-logo" src={Logo} alt='' />
           </NavLink>
 
           {/* Navigation links */}
