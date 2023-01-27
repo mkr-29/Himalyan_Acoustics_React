@@ -3,7 +3,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Auditorium from './Pages/Applications/Auditorium/Auditorium';
 import BanquetHall from './Pages/Applications/Banquet_Hall/BanquetHall';
-import ConferenceHall from './Pages/Applications/Conference_Hall/Conference_Hall';
+import Conference_Hall from './Pages/Applications/Conference_Hall/Conference_Hall';
 import Disco from './Pages/Applications/Disco/Disco';
 import Gymnasiums from './Pages/Applications/Gymnasiums/Gymnasiums';
 import HomeTheater from './Pages/Applications/HomeTheater/HomeTheater';
@@ -14,6 +14,11 @@ import Worship from './Pages/Applications/Worship/Worship';
 import Dropdown from './Pages/Homepage/Components/Header/Dropdown';
 import Homepage from './Pages/Homepage/Homepage';
 import Ceilings from './Pages/Products_Range/Ceilings/Ceilings';
+import Door from './Pages/Products_Range/Door/Door';
+import Floor from './Pages/Products_Range/Floor/Floor';
+import MovPart from './Pages/Products_Range/MovablePartitions/MovPart';
+import Walls from './Pages/Products_Range/Walls/Walls';
+import Windows from './Pages/Products_Range/Windows/Windows';
 import Absorption from './Pages/Prod_Cat/Absorption/Absorption';
 import Diffusion from './Pages/Prod_Cat/Diffusion/Diffusion';
 import Insiso from './Pages/Prod_Cat/InsIso/Insiso';
@@ -24,24 +29,29 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Homepage />} />
-        <Route path="absorption" element={<Absorption />} />
-        <Route path="insiso" element={<Insiso />} />
-        <Route path="vibration" element={<Vibration />} />
-        <Route path="diffusion" element={<Diffusion />} />
-        <Route path="auditorium" element={<Auditorium />} />
-        <Route path="banquet_hall" element={<BanquetHall />} />
-        <Route path="conference_hall" element={<ConferenceHall />} />
-        <Route path="disco" element={<Disco />} />
-        <Route path="gymnasiums" element={<Gymnasiums />} />
-        <Route path="homethea" element={<HomeTheater />} />
-        <Route path="multipurpose" element={<Multipurpose />} />
-        <Route path="office" element={<Office />} />
-        <Route path="studio" element={<Studio />} />
-        <Route path="worship" element={<Worship />} />
-        <Route path="ceilings" element={<Ceilings />} />
-        <Route path="quicklinks" element={<Quicklinks />} />
-        <Route path="dropdown" element={<Dropdown />} />
+          <Route index element={<Homepage />} />
+          <Route path="absorption" element={<Absorption />} />
+          <Route path="insiso" element={<Insiso />} />
+          <Route path="vibration" element={<Vibration />} />
+          <Route path="diffusion" element={<Diffusion />} />
+          <Route path="auditorium" element={<Auditorium />} />
+          <Route path="banquet_hall" element={<BanquetHall />} />
+          <Route path="conference_hall" element={<Conference_Hall />} />
+          <Route path="disco" element={<Disco />} />
+          <Route path="gymnasiums" element={<Gymnasiums />} />
+          <Route path="homethea" element={<HomeTheater />} />
+          <Route path="multipurpose" element={<Multipurpose />} />
+          <Route path="office" element={<Office />} />
+          <Route path="studio" element={<Studio />} />
+          <Route path="worship" element={<Worship />} />
+          <Route path="ceilings" element={<Ceilings />} />
+          <Route path="walls" element={<Walls />} />
+          <Route path="floor" element={<Floor />} />
+          <Route path="door" element={<Door />} />
+          <Route path="windows" element={<Windows />} />
+          <Route path="movpart" element={<MovPart />} />
+          <Route path="quicklinks" element={<Quicklinks />} />
+          <Route path="dropdown" element={<Dropdown />} />
       </Routes>
     </BrowserRouter>
   )
