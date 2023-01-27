@@ -68,20 +68,26 @@
     /* margin: 2rem 0; */
     background-color: gray;
 }
+.from_owner_orn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 500px;
+    color: #FF2C3A;
+    position: absolute;
+    left: 5.7rem;
+    top: 190.5rem;
+    z-index: 4;
+}
 @media screen and (max-width: 400px){
     .from_owner_orn{
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        color: #FF2C3A;
         font-size: 15rem;
-        position: absolute;
-        left: 1rem;
-        top: 253rem;
+        left: 1.5rem;
+        top: 253.5rem;
         z-index: 4;
     }
     .from-owner{
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
     .from_owner_body{
         flex-direction: column;

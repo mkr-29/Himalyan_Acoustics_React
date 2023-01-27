@@ -1,0 +1,50 @@
+.dropdown{
+    width: 10rem;
+    position: relative;
+}
+.dropdown .dropdown_btn{
+    /* padding: 15px 20px; */
+    /* background: #fff; */
+    /* box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06); */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    width: 10rem;
+}
+.d_arr{
+    width: 1rem;
+}
+.dropdown .dropdown_content{
+    position: absolute;
+    top: 125%;
+    left: 0;
+    z-index: 400;
+    padding: 5px;
+    background: #fff;
+    font-weight: 500;
+    color: #333;
+    width: 90%;
+    display: flex;
+    box-shadow: 3px 3px 10px 6px rgb(0 0 0 / 6%);
+    flex-direction: column;
+    align-items: center;
+}
+.dropdown .dropdown_content .dropdown_item{
+    /* padding: 10px;    */
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+    /* width: 10rem; */
+    display: flex;
+    color: black;
+    justify-content: flex-start;
+    /* border-bottom: 1px solid black; */
+}
+/* .dropdown .dropdown_content .dropdown_item:hover{
+    background: #f4f4f4;
+} */

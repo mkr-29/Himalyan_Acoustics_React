@@ -10,6 +10,7 @@ import { Link, NavLink } from "react-router-dom";
 import {Link as LNK} from 'react-scroll';
 import {animateScroll as scroll} from 'react-scroll';
 import Logo from "./Assets/himalyan-logo.png"
+import Dropdown from "./Dropdown";
 
 export default function Header() {
   return (
@@ -96,6 +97,7 @@ export default function Header() {
             >
               PRODUCTS
             </LNK>
+            {/* <Dropdown/> */}
             <LNK
               to="why-us"
               spy={true}

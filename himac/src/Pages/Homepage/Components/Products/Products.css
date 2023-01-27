@@ -10,7 +10,7 @@
 }
 
 .product_range_body {
-    width: 72vw;
+    width: 88vw;
 }
 
 .prod_range_title {
@@ -39,10 +39,10 @@
 
 .prod_range-slider {
     width: 35.9rem;
-    height: 22.7rem;
+    height: 23rem;
     position: absolute;
-    top: 86.9rem;
-    left: 22.9rem;
+    top: 86.6rem;
+    left: 16.9rem;
 }
 
 .product-slide {

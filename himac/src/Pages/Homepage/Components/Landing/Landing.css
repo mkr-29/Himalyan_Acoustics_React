@@ -168,7 +168,7 @@
 
 .landing-slider {
     width: 43rem;
-    height: 22rem;  
+    height: 19rem;
     margin: auto;
     box-shadow: 0 0 3px grey;
     position: relative;
@@ -338,7 +338,10 @@
     height: 0.1px;
     background-color: #747474;
 }
-
+.stat_2{
+    display: flex;
+    flex-direction: column;
+}
 .ren_wor {
     font-weight: 400;
     font-size: 11px;

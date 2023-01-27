@@ -3,7 +3,6 @@ import "./Landing.css";
 import Whatsapp from "./Assets/wa.svg";
 
 export default function Landing() {
-  
   window.addEventListener("load", () => {
     const loader = document.querySelector(".loader");
 
@@ -96,9 +95,8 @@ export default function Landing() {
 
   return (
     <div>
-      {/* Landing page starts */}
-
       <div className="landing">
+        {/* Landing page starts */}
         <div className="landing_whole">
           {/* Left portion of landing page starts */}
 
@@ -147,7 +145,7 @@ export default function Landing() {
                   <div className="stat_per">17+</div>
                   <div className="stat_brief">Years of experinece</div>
                 </div>
-                <div className="stat1 stat2">
+                <div className="stat1 stat_2">
                   <div className="stat_per">97%</div>
                   <div className="stat_brief">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit
