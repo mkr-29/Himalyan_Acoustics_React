@@ -3,7 +3,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Auditorium from './Pages/Applications/Auditorium/Auditorium';
 import BanquetHall from './Pages/Applications/Banquet_Hall/BanquetHall';
-import ConferenceHall from './Pages/Applications/Conference_Hall/Conference_Hall';
+import Conference_Hall from './Pages/Applications/Conference_Hall/Conference_Hall';
 import Disco from './Pages/Applications/Disco/Disco';
 import Gymnasiums from './Pages/Applications/Gymnasiums/Gymnasiums';
 import HomeTheater from './Pages/Applications/HomeTheater/HomeTheater';
