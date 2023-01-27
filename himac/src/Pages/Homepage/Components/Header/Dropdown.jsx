@@ -1,7 +1,7 @@
 import "./Dropdown.css";
-import { AiFillCaretDown } from "@react-icons/all-files/ai/AiFillCaretDown";
+// import { AiFillCaretDown } from "@react-icons/all-files/ai/AiFillCaretDown";
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Down from "./Assets/down.svg";
 
 function Dropdown() {
@@ -10,7 +10,7 @@ function Dropdown() {
     <div className="dropdown">
       <div className="dropdown_btn" onClick={(e) => setIsActive(!isActive)}>
         Products
-        <img className="d_arr" src={Down}/>
+        <img className="d_arr" src={Down} alt="" />
         {/* <FaChevronDown/> */}
       </div>
       {isActive && (
@@ -27,7 +27,7 @@ function Dropdown() {
           <Link to="/diffusion" className="dropdown_item">
             Diffusion
           </Link>
-          <hr/>
+          <hr />
         </div>
       )}
     </div>

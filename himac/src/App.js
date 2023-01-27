@@ -1,9 +1,9 @@
 import React from 'react'
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Auditorium from './Pages/Applications/Auditorium/Auditorium';
 import BanquetHall from './Pages/Applications/Banquet_Hall/BanquetHall';
-import Conference_Hall from './Pages/Applications/Conference_Hall/Conference_Hall';
+import ConferenceHall from './Pages/Applications/Conference_Hall/Conference_Hall';
 import Disco from './Pages/Applications/Disco/Disco';
 import Gymnasiums from './Pages/Applications/Gymnasiums/Gymnasiums';
 import HomeTheater from './Pages/Applications/HomeTheater/HomeTheater';
@@ -24,24 +24,24 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route index element={<Homepage />} />
-          <Route path="absorption" element={<Absorption />} />
-          <Route path="insiso" element={<Insiso />} />
-          <Route path="vibration" element={<Vibration />} />
-          <Route path="diffusion" element={<Diffusion />} />
-          <Route path="auditorium" element={<Auditorium />} />
-          <Route path="banquet_hall" element={<BanquetHall />} />
-          <Route path="conference_hall" element={<Conference_Hall />} />
-          <Route path="disco" element={<Disco />} />
-          <Route path="gymnasiums" element={<Gymnasiums />} />
-          <Route path="homethea" element={<HomeTheater />} />
-          <Route path="multipurpose" element={<Multipurpose />} />
-          <Route path="office" element={<Office />} />
-          <Route path="studio" element={<Studio />} />
-          <Route path="worship" element={<Worship />} />
-          <Route path="ceilings" element={<Ceilings />} />
-          <Route path="quicklinks" element={<Quicklinks />} />
-          <Route path="dropdown" element={<Dropdown />} />
+        <Route index element={<Homepage />} />
+        <Route path="absorption" element={<Absorption />} />
+        <Route path="insiso" element={<Insiso />} />
+        <Route path="vibration" element={<Vibration />} />
+        <Route path="diffusion" element={<Diffusion />} />
+        <Route path="auditorium" element={<Auditorium />} />
+        <Route path="banquet_hall" element={<BanquetHall />} />
+        <Route path="conference_hall" element={<ConferenceHall />} />
+        <Route path="disco" element={<Disco />} />
+        <Route path="gymnasiums" element={<Gymnasiums />} />
+        <Route path="homethea" element={<HomeTheater />} />
+        <Route path="multipurpose" element={<Multipurpose />} />
+        <Route path="office" element={<Office />} />
+        <Route path="studio" element={<Studio />} />
+        <Route path="worship" element={<Worship />} />
+        <Route path="ceilings" element={<Ceilings />} />
+        <Route path="quicklinks" element={<Quicklinks />} />
+        <Route path="dropdown" element={<Dropdown />} />
       </Routes>
     </BrowserRouter>
   )
