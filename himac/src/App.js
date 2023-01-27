@@ -14,6 +14,11 @@ import Worship from './Pages/Applications/Worship/Worship';
 import Dropdown from './Pages/Homepage/Components/Header/Dropdown';
 import Homepage from './Pages/Homepage/Homepage';
 import Ceilings from './Pages/Products_Range/Ceilings/Ceilings';
+import Door from './Pages/Products_Range/Door/Door';
+import Floor from './Pages/Products_Range/Floor/Floor';
+import MovPart from './Pages/Products_Range/MovablePartitions/MovPart';
+import Walls from './Pages/Products_Range/Walls/Walls';
+import Windows from './Pages/Products_Range/Windows/Windows';
 import Absorption from './Pages/Prod_Cat/Absorption/Absorption';
 import Diffusion from './Pages/Prod_Cat/Diffusion/Diffusion';
 import Insiso from './Pages/Prod_Cat/InsIso/Insiso';
@@ -40,6 +45,11 @@ export default function App() {
           <Route path="studio" element={<Studio />} />
           <Route path="worship" element={<Worship />} />
           <Route path="ceilings" element={<Ceilings />} />
+          <Route path="walls" element={<Walls />} />
+          <Route path="floor" element={<Floor />} />
+          <Route path="door" element={<Door />} />
+          <Route path="windows" element={<Windows />} />
+          <Route path="movpart" element={<MovPart />} />
           <Route path="quicklinks" element={<Quicklinks />} />
           <Route path="dropdown" element={<Dropdown />} />
       </Routes>

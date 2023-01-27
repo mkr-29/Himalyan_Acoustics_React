@@ -45,22 +45,22 @@ export default function Quicklinks() {
           <div className="q_links_sec">
             <h2 className="q_links_sh">Product Range</h2>
             <div className="q_links">
-              <Link to="/" className="q_link">
+              <Link to="/ceilings" className="q_link">
                 Ceiling
               </Link>
-              <Link to="/" className="q_link">
+              <Link to="/walls" className="q_link">
                 Walls
               </Link>
-              <Link to="/" className="q_link">
+              <Link to="/floor" className="q_link">
                 Floor
               </Link>
-              <Link to="/" className="q_link">
+              <Link to="/door" className="q_link">
                 Door
               </Link>
-              <Link to="/" className="q_link">
+              <Link to="/windows" className="q_link">
                 Windows
               </Link>
-              <Link to="/" className="q_link">
+              <Link to="/movpart" className="q_link">
                 Movable Partitions
               </Link>
             </div>
