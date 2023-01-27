@@ -11,11 +11,11 @@ export default function TempDoo(parse) {
         </div>
         <div className="temp1_imgsec">
           <div className="temp1_imgcard">
-            <img src={parse.img1} className="temp1_img" />
+            <img src={parse.img1} className="temp1_img" alt='' />
             <h3 className="temp1_imgtitle">{parse.imgt1}</h3>
           </div>
           <div className="temp1_imgcard">
-            <img src={parse.img2} className="temp1_img" />
+            <img src={parse.img2} className="temp1_img" alt='' />
             <h3 className="temp1_imgtitle">{parse.imgt2}</h3>
           </div>
         </div>

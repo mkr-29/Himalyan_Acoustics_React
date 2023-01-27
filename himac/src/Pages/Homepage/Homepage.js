@@ -11,7 +11,7 @@ import Client from "./Components/Client/Client";
 import Quicklinks from "../Quicklinks/Quicklinks";
 import { Link } from "react-router-dom";
 import {animateScroll as scroll} from 'react-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Homepage() {
   return (
