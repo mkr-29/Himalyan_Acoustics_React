@@ -11,6 +11,7 @@ export default function TempDif(parse) {
         </div>
         <div className="temp1_imgsec">
           <div className="temp1_imgcard">
+            {/* image1 */}
             <img src={parse.img1} className="temp1_img" alt='' />
             <h3 className="temp1_imgtitle">{parse.imgt1}</h3>
           </div>
