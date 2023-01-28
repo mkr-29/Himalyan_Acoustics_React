@@ -28,6 +28,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 2rem;
+    align-items: center;
 }
 
 .ser_off_line_socials {
@@ -67,7 +68,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    width: 88vw;
+    width: 80vw;
 }
 
 .ser_off_carousel {

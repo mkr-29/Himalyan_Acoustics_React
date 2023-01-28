@@ -40,3 +40,26 @@
 .ar_up{
     font-size: 20px;
 }
+
+@media screen and (max-width: 400px){
+    .float{
+        width: 50px;
+        height: 50px;
+        bottom: 10px;
+        right: 10px;
+    }
+    .my-float{
+        margin-top: 8px;
+        font-size: 2.25rem;
+    }
+    .to_top{
+        width: 7rem;
+        height: 26px;
+        bottom: 20px;
+        right: 36%;
+        font-size: 20px;
+    }
+    .ar_up{
+        font-size: 16px;
+    }
+}

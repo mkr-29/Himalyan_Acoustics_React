@@ -70,4 +70,8 @@
         /* width: 80%; */
         flex-direction: column;
     }
+    .qsec4 .q_links .q_link{
+        margin-right: 0rem;
+    }
+
 }
