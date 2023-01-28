@@ -1,16 +1,16 @@
 import React from "react";
 import "./Services.css";
-import Ap1 from "./Assets/ap1.jpg";
-import Ap2 from "./Assets/ap2.jpg";
-import Ap3 from "./Assets/ap3.jpg";
-import Ap4 from "./Assets/ap4.jpg";
-import Ap5 from "./Assets/ap5.jpg";
-import Ap6 from "./Assets/ap6.jpg";
-import Ap7 from "./Assets/ap7.jpg";
-import Ap8 from "./Assets/ap8.jpg";
-import Ap9 from "./Assets/ap9.jpg";
-import Ap10 from "./Assets/ap10.jpg";
-import Ap11 from "./Assets/ap11.jpg";
+import Service1 from "./Assets/Ser1.jpg";
+import Service2 from "./Assets/Ser2.jpg";
+import Service3 from "./Assets/Ser3.jpg";
+import Service4 from "./Assets/Ser4.jpg";
+import Service5 from "./Assets/Ser5.jpg";
+import Service6 from "./Assets/Ser6.jpg";
+import Service7 from "./Assets/Ser7.jpg";
+import Service8 from "./Assets/Ser8.jpg";
+import Service9 from "./Assets/Ser9.jpg";
+import Service10 from "./Assets/Ser10.jpg";
+import Service11 from "./Assets/Ser11.jpg";
 import SocialOrn from "./Social_Orn";
 import Orn1 from "./Assets/el1.svg";
 import Orn2 from "./Assets/el2.svg";
@@ -103,88 +103,88 @@ export default function Services() {
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap1}
-                    alt="auditorium"
+                    src={Service1}
+                    alt="Auditoriums"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap2}
-                    alt="cinema_hall"
+                    src={Service2}
+                    alt="Banquet Halls"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap3}
-                    alt="sound_studio"
+                    src={Service3}
+                    alt="Conference Hall"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap4}
-                    alt="auditorium"
+                    src={Service4}
+                    alt="Disco's & Lounges"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap5}
-                    alt="auditorium"
+                    src={Service5}
+                    alt="Gymnasiums"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap6}
-                    alt="auditorium"
+                    src={Service6}
+                    alt="Home Theaters"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap7}
-                    alt="auditorium"
+                    src={Service7}
+                    alt="Multipurpose Hall"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap8}
-                    alt="auditorium"
+                    src={Service8}
+                    alt="Offices"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap9}
-                    alt="auditorium"
+                    src={Service9}
+                    alt="Studios"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap10}
-                    alt="auditorium"
+                    src={Service10}
+                    alt="Restaurants"
                     srcset=""
                   />
                 </div>
                 <div>
                   <img
                     className="ser-img"
-                    src={Ap11}
-                    alt="auditorium"
+                    src={Service11}
+                    alt="Worship Places"
                     srcset=""
                   />
                 </div>

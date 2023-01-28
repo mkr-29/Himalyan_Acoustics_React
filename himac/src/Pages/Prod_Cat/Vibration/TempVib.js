@@ -11,28 +11,28 @@ export default function TempVib(parse) {
         </div>
         <div className="temp1_imgsec">
           <div className="temp1_imgcard">
-            <img src={parse.img1} className="temp1_img" alt='' />
+            <img src={parse.img1} className="temp1_img" alt={parse.alt1} />
             <h3 className="temp1_imgtitle">{parse.imgt1}</h3>
           </div>
           <div className="temp1_imgcard">
-            <img src={parse.img2} className="temp1_img" alt='' />
+            <img src={parse.img2} className="temp1_img" alt={parse.alt2} />
             <h3 className="temp1_imgtitle">{parse.imgt2}</h3>
           </div>
           <div className="temp1_imgcard">
-            <img src={parse.img3} className="temp1_img" alt='' />
+            <img src={parse.img3} className="temp1_img" alt={parse.alt3} />
             <h3 className="temp1_imgtitle">{parse.imgt3}</h3>
           </div>
           <div className="temp1_imgcard">
-            <img src={parse.img4} className="temp1_img" alt='' />
+            <img src={parse.img4} className="temp1_img" alt={parse.alt4} />
             <h3 className="temp1_imgtitle">{parse.imgt4}</h3>
           </div>
 
           <div className="temp1_imgcard">
-            <img src={parse.img5} className="temp1_img" alt='' />
+            <img src={parse.img5} className="temp1_img" alt={parse.alt5} />
             <h3 className="temp1_imgtitle">{parse.imgt5}</h3>
           </div>
           <div className="temp1_imgcard">
-            <img src={parse.img6} className="temp1_img" alt='' />
+            <img src={parse.img6} className="temp1_img" alt={parse.alt6} />
             <h3 className="temp1_imgtitle">{parse.imgt6}</h3>
           </div>
         </div>

@@ -1,31 +1,31 @@
 import React from "react";
 import Header from "../../Homepage/Components/Header/Header";
 import "./Absorption.css";
-import Wooden_Dots from "./Assets/wooden-dot.jpg";
-import Aphony_Fibril from "./Assets/aphony-fib.jpg";
-import Merino_Fabric from "./Assets/merino-fab.jpg";
-import Merino from "./Assets/merin.jpg";
-import Under_Deck_Insulation from "./Assets/underdeck.jpg";
-import Aphony_Fibrette_Baffles from "./Assets/aphony-fibrette.jpg";
-import Aphony_Fibrette_Clouds from "./Assets/aphony-clouds.jpg";
-import Aphony_Gloss_Baffle from "./Assets/aphony-baffle.jpg";
+import WoodenDots from "./Assets/WoodenDots.jpg";
+import AphonyFibril from "./Assets/AphonyFib.jpg";
+import MerinoFabric from "./Assets/MerinoFab.jpg";
+import Merino from "./Assets/Merin.jpg";
+import UnderDeckInsulation from "./Assets/Underdeck.jpg";
+import AphonyFibretteBaffles from "./Assets/AphonyFibrette.jpg";
+import AphonyFibretteClouds from "./Assets/AphonyClouds.jpg";
+import AphonyGlossBaffle from "./Assets/AphonyBaffle.jpg";
 import Footer from "../../Homepage/Components/Footer/Footer";
-import Aphony_Gloss_Clouds from "./Assets/aphony-glass-clouds.jpg";
+import AphonyGlossClouds from "./Assets/AphonyGlassClouds.jpg";
 import Carpet from "./Assets/Carpets.jpg";
-import Aphony_Smart_Panel_22_Room_Kit from "./Assets/smart-panel.jpg";
-import Portable_Vocal_booth from "./Assets/portable-booth.jpg";
-import Infra_Board from "./Assets/infra-boad.jpg";
-import Absorb_Wool from "./Assets/Absorb.jpg";
-import WOODLOT from "./Assets/woodlot.jpg";
-import ELEGANT_CREATIVE from "./Assets/elegant-creative.jpg";
-import Elegant_Pasteable from "./Assets/elegant-pastable.jpg";
-import Elegant_Fabric from "./Assets/elegant-fab.jpg";
-import Stretch_Crepe from "./Assets/stretch.jpg";
-import Elegant_Tile from "./Assets/e-tile.jpg";
-import Aphony_Grace from "./Assets/aphony-gr.jpg";
-import Aphony_Gloss from "./Assets/aphony-glos.jpg";
-import Aphony_Fibrette from "./Assets/himalyan-ceiling.jpg";
-import Aphony_Cortex_Splendor from "./Assets/himalyan-ceiling.jpg";
+import AphonySmartPanel22RoomKit from "./Assets/SmartPanel.jpg";
+import PortableVocalbooth from "./Assets/PortableBooth.jpg";
+import InfraBoard from "./Assets/InfraBoad.jpg";
+import AbsorbWool from "./Assets/Absorb.jpg";
+import WOODLOT from "./Assets/Woodlot.jpg";
+import ELEGANTCREATIVE from "./Assets/ElegantCreative.jpg";
+import ElegantPasteable from "./Assets/ElegantPastable.jpg";
+import ElegantFabric from "./Assets/ElegantFab.jpg";
+import StretchCrepe from "./Assets/Stretch.jpg";
+import ElegantTile from "./Assets/ETile.jpg";
+import AphonyGrace from "./Assets/AphonyGr.jpg";
+import AphonyGloss from "./Assets/AphonyGlos.jpg";
+import AphonyFibrette from "./Assets/HimalyanCeiling.jpg";
+import AphonyCortexSplendor from "./Assets/HimalyanCeiling.jpg";
 import TempAbs from "./TempAbs";
 
 export default function Absorption() {
@@ -37,56 +37,103 @@ export default function Absorption() {
         description="Sound Absorption is a technique where in various absorbent materials are strategically used to absorb sound to avoid unwanted reflected sound waves within a room or space. The main benefit of this technique is to reduce reverberation control as well as echo control within a space. There are two rating methods prominently used across the world. In simple words, it’s a process whereby sound energy is converted into heat, leading to reduction into sound pressure level (SPL). This is a property of the material, which allows it to absorb the sound energy.
 
             The first one is NRC (Noise Reduction Coefficient) which is defined as part of America Standards and majorly used within United State. The rating is unitless and since it is a coefficient, it ranges from 0 to 1. The Second one Weighted Absorption Coefficient which is denoted by Greek letter ‘α’. and defined as part of ISO Standards and used prominently across the world. Similar to NRC, the rating is unitless, and ranges from 0 to 1."
-        img1={Wooden_Dots}
+        img1={WoodenDots}
         imgt1="WOODEN DOTS"
-        img2={Aphony_Fibril}
+        alt1="Wooden Dots"
+        
+        img2={AphonyFibril}
         imgt2="APHONY FIBRIL"
-        img3={Merino_Fabric}
+        alt2="Aphony Fibril"
+
+        img3={MerinoFabric}
         imgt3="MERINO FABRIC"
+        alt3="Merino Fabric"
+
         img4={Merino}
         imgt4="MERINO"
-        img5={Under_Deck_Insulation}
+        alt4="Merino"
+
+        img5={UnderDeckInsulation}
         imgt5="UNDER DECK INSULATION"
-        img6={Aphony_Fibrette_Baffles}
+        alt5="Under Deck Insulation"
+
+        img6={AphonyFibretteBaffles}
         imgt6="APHONY FIBRETTE BAFFLES"
-        img7={Aphony_Fibrette_Clouds}
+        alt6="Aphony Fibrette Baffles"
+
+        img7={AphonyFibretteClouds}
         imgt7="APHONY FIBRETTE CLOUDS"
-        img8={Aphony_Gloss_Baffle}
+        alt7="Aphony Fibrette Clouds"
+
+        img8={AphonyGlossBaffle}
         imgt8="APHONY GLOSS BAFFLE"
-        img9={Aphony_Gloss_Clouds}
+        alt8="Aphony Gloss Baffle"
+        
+        img9={AphonyGlossClouds}
         imgt9="APHONY GLOSS CLOUDS"
+        alt9="Aphony Gloss Clouds"
+
         img10={Carpet}
         imgt10="CARPET"
-        img11={Aphony_Smart_Panel_22_Room_Kit}
+        alt10="Carpet"
+
+        img11={AphonySmartPanel22RoomKit}
         imgt11="APHONY SMART PANEL 22 ROOM KIT"
-        img12={Portable_Vocal_booth}
+        alt11="Aphony Smart Panel 22 Room Kit"
+
+        img12={PortableVocalbooth}
         imgt12="PORTABLE VOCAL BOOTH"
-        img13={Infra_Board}
+        alt12="Portable Vocal Booth"
+
+        img13={InfraBoard}
         imgt13="INFRA BOARD"
-        img14={Absorb_Wool}
+        alt13="Infra Board"
+
+        img14={AbsorbWool}
         imgt14="ABSORB WOOL"
+        alt14="Absorb Wool"
+
         img15={WOODLOT}
         imgt15="WOODLOT"
-        img16={ELEGANT_CREATIVE}
+        alt15="Woodlot"
+
+        img16={ELEGANTCREATIVE}
         imgt16="ELEGANT CREATIVE"
-        img17={Elegant_Pasteable}
+        alt16="Elegant Creative"
+
+        img17={ElegantPasteable}
         imgt17="ELEGANT PASTEABLE"
-        img18={Elegant_Fabric}
+        alt17="Elegant Pasteable"
+
+        img18={ElegantFabric}
         imgt18="ELEGANT FABRIC"
-        img19={Stretch_Crepe}
+        alt18="Elegant Fabric"
+
+        img19={StretchCrepe}
         imgt19="STRETCH CREPE"
-        img20={Elegant_Tile}
+        alt19="Stretch Crepe"
+
+        img20={ElegantTile}
         imgt20="ELEGANT TILE"
-        img21={Aphony_Grace}
+        alt20="Elegant Tile"
+
+        img21={AphonyGrace}
         imgt21="APHONY GRACE"
-        img22={Aphony_Gloss}
+        alt21="Aphony Grace"
+
+        img22={AphonyGloss}
         imgt22="APHONY GLOSS"
-        img23={Aphony_Fibrette}
+        alt22="Aphony Gloss"
+
+        img23={AphonyFibrette}
         imgt23="APHONY FIBRETTE"
-        img24={Aphony_Cortex_Splendor}
+        alt23="Aphony Fibrette"
+
+        img24={AphonyCortexSplendor}
         imgt24="APHONY CORTEX SPLENDOR"
+        alt24="Aphony Cortex Splendor"
       />
-      <div className="footer_gap"/>
+      <div className="footergap"/>
       <Footer/>
     </div>
   );

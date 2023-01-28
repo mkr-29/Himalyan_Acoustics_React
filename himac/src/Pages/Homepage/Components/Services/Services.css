@@ -10,6 +10,9 @@
     font-weight: 700;
     font-size: 47px;
     color: #FF2C3A;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
 }
 
 .ser_off_socials {

@@ -1,11 +1,11 @@
 import React from "react";
 import "./Products.css";
-import P1 from "./Assets/p1.jpg";
-import P2 from "./Assets/p2.jpg";
-import P3 from "./Assets/p3.jpg";
-import P4 from "./Assets/p4.jpg";
-import P5 from "./Assets/p5.jpg";
-import P6 from "./Assets/p6.jpg";
+import Product1 from "./Assets/Prod1.jpg";
+import Product2 from "./Assets/Prod2.jpg";
+import Product3 from "./Assets/Prod3.jpg";
+import Product4 from "./Assets/Prod4.jpg";
+import Product5 from "./Assets/Prod5.jpg";
+import Product6 from "./Assets/Prod6.jpg";
 import Orn3 from "./Assets/mr1.svg";
 import Arb1 from "./Assets/arb.svg";
 import Arf1 from "./Assets/arf.svg";
@@ -109,22 +109,22 @@ export default function Products() {
               {/* slider */}
               <div class="prod_range-slider">
                 <div class="product-slide">
-                  <img src={P1} alt="Product-1" />
+                  <img src={Product1} alt="Product-1" />
                 </div>
                 <div class="product-slide">
-                  <img src={P2} alt="Product-2" />
+                  <img src={Product2} alt="Product-2" />
                 </div>
                 <div class="product-slide">
-                  <img src={P3} alt="Product-3" />
+                  <img src={Product3} alt="Product-3" />
                 </div>
                 <div class="product-slide">
-                  <img src={P4} alt="Product-3" />
+                  <img src={Product4} alt="Product-3" />
                 </div>
                 <div class="product-slide">
-                  <img src={P5} alt="Product-3" />
+                  <img src={Product5} alt="Product-3" />
                 </div>
                 <div class="product-slide">
-                  <img src={P6} alt="Product-3" />
+                  <img src={Product6} alt="Product-3" />
                 </div>
               </div>
 
