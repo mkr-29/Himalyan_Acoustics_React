@@ -6,7 +6,7 @@ import GlassWoodenAcousticDoor from "./Assets/GlassWooden.jpg";
 import AphonyGraceSoundBarrierWithDampner from "./Assets/AphonyGrace.jpg";
 import AphonyGraceSoundBarrier from "./Assets/AphonySound.jpg";
 import ISOBlock from "./Assets/IsoBlock.jpg";
-import ISOPly from "./Assets/Ply.jpg";
+import ISOPly from "./Assets/ply.jpg";
 import SoundBarrierWithDamper from "./Assets/SoundBarrierD.jpg";
 import SoundBarrier from "./Assets/SoundB.jpg";
 import SoundDampner from "./Assets/SoundDamper.jpg";
@@ -68,8 +68,8 @@ The first one is STC (Sound Transmission Class) which is defined as part of Amer
         imgt11="ISO BOARD"
         alt11="ISO Board"
       />
-      <div className="footergap"/>
-      <Footer/>
+      <div className="footergap" />
+      <Footer />
     </div>
   );
 }

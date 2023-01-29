@@ -9,8 +9,9 @@ import Products from "./Components/Products/Products";
 import Whyus from "./Components/WhyUs/Whyus";
 import Client from "./Components/Client/Client";
 import Quicklinks from "../Quicklinks/Quicklinks";
+import PrimePartners from './Components/PrimePartners/Partners'
 import { Link } from "react-router-dom";
-import {animateScroll as scroll} from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Homepage() {
@@ -31,6 +32,7 @@ export default function Homepage() {
       <Products />
       <Whyus />
       <Client />
+      <PrimePartners />
       <FromOwner />
       <Footer />
     </div>

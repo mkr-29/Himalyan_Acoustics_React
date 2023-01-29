@@ -18,10 +18,7 @@ import Orn2 from "./Assets/el2.svg";
 export default function Services() {
 
   const serSlides = document.querySelectorAll(".ser-img");
-  // const serMaxSlide = serSlides.length;
-
-  let serTitle = document.getElementById("serTitle");
-  let serInfo = document.getElementById("serText");
+  const serMaxSlide = serSlides.length;
 
   var services = [
     "Auditoriums",
@@ -51,32 +48,84 @@ export default function Services() {
     "Offering the Elementor image box with button. We are offering image box carousel elementor",
   ];
 
+  const slides = [
+    {
+      image: Service1,
+      title: services[0],
+      description: serDesc[0],
+    },
+    {
+      image: Service2,
+      title: services[1],
+      description: serDesc[1],
+    },
+    {
+      image: Service3,
+      title: services[2],
+      description: serDesc[2],
+    },
+    {
+      image: Service4,
+      title: services[3],
+      description: serDesc[3],
+    },
+    {
+      image: Service5,
+      title: services[4],
+      description: serDesc[4],
+    },
+    {
+      image: Service6,
+      title: services[5],
+      description: serDesc[5],
+    },
+    {
+      image: Service7,
+      title: services[6],
+      description: serDesc[6],
+    },
+    {
+      image: Service8,
+      title: services[7],
+      description: serDesc[7],
+    },
+    {
+      image: Service9,
+      title: services[8],
+      description: serDesc[8],
+    },
+    {
+      image: Service10,
+      title: services[9],
+      description: serDesc[9],
+    },
+    {
+      image: Service11,
+      title: services[10],
+      description: serDesc[10],
+    },
+  ]
+
   let serSlideCounter = 0;
 
   serSlides.forEach((serSlide, serIndex) => {
     serSlide.style.left = `${serIndex * 110}%`;
   });
 
-  const updateServicesInfo = function () {
-    serTitle.innerHTML = services[serSlideCounter];
-    serInfo.innerHTML = serDesc[serSlideCounter];
-  };
-
-  const serSlideImage = function () {
+  const updateSer = () => {
     serSlides.forEach((serSlide) => {
       serSlide.style.transform = `translateX(-${serSlideCounter * 110}%)`;
     });
-  };
+  }
 
-  // const goSerNext = function () {
-  //   if (serSlideCounter !== serMaxSlide - 1) {
-  //     serSlideCounter++;
-  //   } else {
-  //     serSlideCounter = 0;
-  //   }
-  //   serSlideImage();
-  //   updateServicesInfo();
-  // };
+  const goSerNext = () => {
+    if (serSlideCounter !== serMaxSlide - 1) {
+      serSlideCounter++;
+    } else {
+      serSlideCounter = 0;
+    }
+    updateSer();
+  };
 
   //Slides will slide automatically
   // let autoSerSlide = setInterval(goSerNext, 4000);
@@ -199,7 +248,7 @@ export default function Services() {
                 sounds will be played.
               </span>
               <span className="ser-buttons">
-                <button className="ser-btn-prev">&larr;</button>
+                <button onClick={goSerNext} className="ser-btn-prev">&larr;</button>
                 <button className="ser-btn-next">&rarr;</button>
               </span>
             </div>
